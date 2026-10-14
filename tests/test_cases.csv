@@ -1,0 +1,24 @@
+Test Case ID,Module,Test,Steps / Setup,Expected Result,Actual Status,Priority
+TC-001,Dashboard,KPI values display,Open Dashboard,All KPI cards show value unit and label,Not Run,Must
+TC-002,Dashboard,Reconcile total waste,Compare total to eligible source records using documented unit rules,Total matches independently calculated value,Not Run,Must
+TC-003,Dashboard,Reconcile rates,Calculate numerator and denominator independently,Percentages match documented formulas,Not Run,Must
+TC-004,Waste Tracker,Add valid record,Add record with valid required fields,Record appears and dependent totals update,Not Run,Must
+TC-005,Waste Tracker,Reject invalid quantity,Try blank negative and non-numeric quantity,Invalid values are rejected or error explained,Not Run,Must
+TC-006,Waste Tracker,Edit record,Edit an existing record,Updated values appear consistently,Not Run,Must
+TC-007,Waste Tracker,Delete record,Delete a test record,Record removed and related totals update,Not Run,Must
+TC-008,Waste Tracker,Search and filters,Search material and apply category/treatment filters,Only matching records display and filters can be cleared,Not Run,Must
+TC-009,Marketplace,Demo listings disclosure,Open Marketplace,Demo/sample listings and simulated connections clearly disclosed,Not Run,Must
+TC-010,Marketplace,Search/filter listing,Search a known material and apply category filter,Expected matching cards display,Not Run,Should
+TC-011,Marketplace,Create listing,Create listing with valid data,Listing appears with correct details and status,Not Run,Should
+TC-012,Calculator,Disposal scenario arithmetic,Use 100 kg and disposal rate 0.40 per kg,Disposal cost equals 40 in selected currency if formula is quantity times rate,Not Run,Must
+TC-013,Calculator,Scenario output updates,Change quantity and rates,Scenario totals update consistently,Not Run,Must
+TC-014,Calculator,Invalid inputs,Enter zero negative or text in numeric fields,Invalid values rejected or safely handled,Not Run,Must
+TC-015,AI Advisor,Demo mode disclosure,Open AI Advisor,Clearly states rule-based demo mode not live AI integration,Not Run,Must
+TC-016,AI Advisor,Recommendations use records,Run Analyze My Data with known records,Recommendations explain patterns and avoid invented metrics,Not Run,Should
+TC-017,Reports,Monthly/yearly selector,Switch reporting period,Metrics and chart correspond to chosen period,Not Run,Must
+TC-018,Reports,Export records,Export Records and inspect CSV,Headers and rows are correct and readable,Not Run,Must
+TC-019,Reports,Export summary/trends,Export Summary and Export Trends,Files contain expected metrics and periods,Not Run,Must
+TC-020,Persistence,Refresh persistence,Add test record and refresh,Behavior matches documented storage design,Not Run,Must
+TC-021,Consistency,Currency and units,Compare dashboard calculator and reports,Unit/currency labels and conversion rules are consistent,Not Run,Must
+TC-022,Responsive UI,Narrow viewport,Use mobile/narrow viewport,Navigation and key actions remain usable,Not Run,Should
+TC-023,Accessibility,Keyboard form use,Navigate core form with keyboard,Inputs labelled focus visible and actions reachable,Not Run,Should
