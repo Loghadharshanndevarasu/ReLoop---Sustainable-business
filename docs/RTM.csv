@@ -1,0 +1,23 @@
+Requirement ID,Requirement / Business Need,Related Requirement(s),Test Case ID(s),Priority,Execution Status,Evidence / Notes
+BR-01,Consolidated waste/treatment view,FR-01; FR-02,TC-001; TC-002; TC-003,Must,Not Run,Execute reconciliation tests
+BR-02,Maintain material records,FR-03; FR-04; FR-05,TC-004; TC-005; TC-006; TC-007; TC-008,Must,Not Run,Execute record workflow tests
+BR-03,Compare treatment scenarios transparently,FR-08,TC-012; TC-013; TC-014,Must,Not Run,Check formula arithmetic
+BR-04,Discover surplus material reuse opportunities,FR-06; FR-07,TC-009; TC-010; TC-011,Should,Not Run,Verify demo disclosure
+BR-05,Data-based recommendations with AI/rule disclosure,FR-09,TC-015; TC-016,Should,Not Run,Advisor is rule-based demo mode in supplied screenshot
+BR-06,Period reports and exports,FR-10; FR-11,TC-017; TC-018; TC-019,Must,Not Run,Inspect export contents
+BR-07,Distinguish demo from real data/transactions,FR-07; FR-13,TC-009; TC-015,Must,Not Run,Keep transparency labels
+BR-08,Consistent units and currency,FR-14,TC-002; TC-003; TC-012; TC-021,Must,Not Run,Confirm intended currency/unit policy
+FR-01,Display core KPIs,BR-01,TC-001; TC-002; TC-003,Must,Not Run,
+FR-02,Display trends/category breakdown,BR-01,TC-002; TC-017,Must,Not Run,
+FR-03,Create material record,BR-02,TC-004; TC-005,Must,Not Run,
+FR-04,Edit/delete record,BR-02,TC-006; TC-007,Must,Not Run,
+FR-05,Search/filter records,BR-02,TC-008,Must,Not Run,
+FR-06,Display/filter marketplace listings,BR-04,TC-009; TC-010,Should,Not Run,
+FR-07,Create listing/connection flow,BR-04; BR-07,TC-009; TC-011,Should,Not Run,Connection may be simulated
+FR-08,Calculate treatment scenarios,BR-03,TC-012; TC-013; TC-014,Must,Not Run,
+FR-09,Generate transparent recommendations,BR-05,TC-015; TC-016,Should,Not Run,Rule-based demo mode
+FR-10,Switch report period,BR-06,TC-017,Must,Not Run,
+FR-11,Export records/summary/trends,BR-06,TC-018; TC-019,Must,Not Run,
+FR-12,Handle empty/invalid input,BR-02; BR-03,TC-005; TC-014,Must,Not Run,
+FR-13,Disclose demo/assumption status,BR-07,TC-009; TC-015,Must,Not Run,
+FR-14,Consistent units/currency,BR-08,TC-021,Must,Not Run,
